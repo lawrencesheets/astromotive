@@ -45,16 +45,16 @@ html,body {
   -webkit-filter: brightness(33%);
 }
 .logo {
-  font-size: 12em;
+  font-size: 5em;
   font-family: 'Flottflott';
   margin: 0 !important;
   line-height: 0.9em !important;
 }
 .icon {
-  width: 350px;
+  width: 200px;
 }
 .subtitle {
-  font-size: 3.5em;
+  font-size: 2.0em;
   transform: skew(-6deg);
   -webkit-transform: skew(-6deg);
   margin-top: 30px;
@@ -68,7 +68,6 @@ html,body {
   position: relative;
   height: 50vh;
   width: 100%;
-  padding: 0;
 }
 .half-page::after {
   content: '';
@@ -84,9 +83,9 @@ html,body {
 }
 .half-page p {
   color: #fff;
-  font-size: 3.25em;
+  font-size: 1.75em;
   width: 100%;
-  padding: 0 25vw;
+  padding: 0 10vw;
   line-height: 1em;
   font-weight: 400;
   letter-spacing: 0.05em;
@@ -131,8 +130,8 @@ html,body {
   -webkit-transform: skew(-6deg);
 }
 .pic {
-  height: 20vh;
-  width: 20vh;
+  height: 14vh;
+  width: 14vh;
   margin: 0 auto;
   border-radius: 10vh;
   background-size: cover;
@@ -159,7 +158,7 @@ html,body {
 }
 .contact .header {
   font-family: 'Flottflott';
-  font-size: 4em;
+  font-size: 3em;
 }
 .contact .header::after {
   content: "";
@@ -231,7 +230,7 @@ html,body {
 
 footer {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.0em;
   color: #999;
   border-top: 1px dotted #ccc;
 }

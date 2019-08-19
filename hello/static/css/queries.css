@@ -15,17 +15,59 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+  .logo {   font-size: 6em; }
+  .icon {   width: 250px; }
+  .subtitle{  font-size: 2.5em; }
+  .half-page p {
+    font-size: 2.25em;
+    padding: 0 15vw;
+  }
+  .pic {
+    height: 16vh;
+    width: 16vh;
+  }
+  .contact .header {
+    font-size: 3.33em;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+  .logo {   font-size: 9em; }
+  .icon {   width: 300px; }
+  .subtitle{  font-size: 3.0em; }
+  .half-page p {
+    font-size: 2.75em;
+    padding: 0 20vw;
+  }
+  .pic {
+    height: 18vh;
+    width: 18vh;
+  }
+  .contact .header {
+    font-size: 3.66em;
+  }
+  footer {
+    font-size: 1.5em;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+  .logo {   font-size: 12em; }
+  .icon {   width: 350px; }
+  .subtitle{  font-size: 3.5em; }
+  .half-page p {
+    font-size: 3.25em;
+    padding: 0 25vw;
+  }
+  .pic {
+    height: 20vh;
+    width: 20vh;
+  }
+  .contact .header {
+    font-size: 4em;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
