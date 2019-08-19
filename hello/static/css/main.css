@@ -35,7 +35,7 @@ body:before {
   -o-background-size: cover;
   background-size: cover;
 }
-
+.row { margin: 0; }
 .full-page {
   height: 90vh;
   width: 100%;
