@@ -19,6 +19,22 @@ html,body {
   font-family: 'Lichtspiele-Display';
   font-size: 1em;
 }
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background-image: url('http://www.astrosurf.com/viladrich/astro/moon/closeup/Deslandres_C14-B1920-red-6Aug2015-3h52mnUT-300f.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .full-page {
   height: 90vh;
   width: 100%;
@@ -71,9 +87,11 @@ html,body {
   margin: 0;
   padding: 0;
 }
-.half-page::after {
+/* .half-page::after {
   content: '';
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background-image: url('http://www.astrosurf.com/viladrich/astro/moon/closeup/Deslandres_C14-B1920-red-6Aug2015-3h52mnUT-300f.jpg');
@@ -82,7 +100,7 @@ html,body {
   filter: brightness(60%) sepia(100%);
   -webkit-filter: brightness(60%) sepia(100%);
   z-index: -1;
-}
+} */
 .half-page p {
   color: #fff;
   font-size: 1.75em;
@@ -157,6 +175,7 @@ html,body {
   width: 100%;
   text-align: center;
   margin: 10vh auto;
+  background: #fff;
 }
 .contact .header {
   font-family: 'Flottflott';
