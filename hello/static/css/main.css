@@ -15,10 +15,10 @@
 html,body {
   height:100%;
   width:100%;
+  margin: 0;
   color: #111;
   font-family: 'Lichtspiele-Display';
   font-size: 1em;
-  overflow-x: hidden;
 }
 body:before {
   content: "";
