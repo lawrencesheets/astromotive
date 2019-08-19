@@ -9,7 +9,7 @@ class BaseForm(forms.ModelForm):
 
     class Meta:
         model = Base
-        fields = ('name', 'email', 'subject', 'body')
+        fields = ('name', 'email')
 
 
     def __init__(self, *args, **kwargs):
@@ -21,7 +21,5 @@ class BaseForm(forms.ModelForm):
         self.helper.layout = Layout(
             'name',
             'email',
-            'subject',
-            'body',
             Submit('submit', 'Submit', css_class='btn-success' )
         )

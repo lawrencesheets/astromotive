@@ -8,5 +8,3 @@ class Greeting(models.Model):
 class Base(models.Model):
     name = models.CharField(max_length=100)
     email = models.EmailField()
-    subject = models.CharField(max_length=255)
-    body = models.TextField()
