@@ -30,6 +30,40 @@ html,body {
   justify-content: center;
   text-align: center;
 }
+.title-page {
+  background: #fefbf9;
+}
+.title-page::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/img-noise.png');
+  filter: brightness(33%);
+  -webkit-filter: brightness(33%);
+}
+.logo {
+  font-size: 12em;
+  font-family: 'Flottflott';
+  margin: 0 !important;
+  line-height: 0.9em !important;
+}
+.icon {
+  width: 350px;
+}
+.subtitle {
+  font-size: 3.5em;
+  transform: skew(-6deg);
+  -webkit-transform: skew(-6deg);
+  margin-top: 30px;
+}
+.logo, .subtitle {
+  color: #dd1111;
+}
+
+/* Half Page */
 .half-page {
   position: relative;
   height: 50vh;
@@ -50,48 +84,81 @@ html,body {
 }
 .half-page p {
   color: #fff;
-  font-size: 3em;
+  font-size: 3.25em;
   width: 100%;
-  padding: 0 30vw;
+  padding: 0 25vw;
   line-height: 1em;
   font-weight: 400;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
   transform: skew(-6deg);
   -webkit-transform: skew(-6deg);
-}
-.logo {
-  font-size: 12em;
-  font-family: 'Flottflott';
-  margin: 0 !important;
-  line-height: 0.9em !important;
-}
-.icon {
-  width: 22%;
-}
-.subtitle {
-  font-size: 3.5em;
-  transform: skew(-6deg);
-  -webkit-transform: skew(-6deg);
-  margin-top: 30px;
-}
-.logo, .subtitle {
-  color: #dd1111;
 }
 
+
+/* Team Page */
+.team {
+  background: #f2f0ef;
+  height: auto;
+  margin: 0;
+  padding: 12vh 10vw;
+  position: relative;
+}
+
+.member {
+  text-align: center;
+}
+.member a {
+  text-decoration: none;
+  color: inherit;
+}
+.member a:hover {
+  color: #777;
+}
+.member h3 {
+  text-transform: uppercase;
+  font-size: 2.6em;
+  letter-spacing: 0.05em;
+  transform: skew(-6deg);
+  -webkit-transform: skew(-6deg);
+  margin: 5vh auto 0 auto;
+  line-height: 0.6em;
+}
+.member p {
+  font-size: 1.5em;
+  letter-spacing: 0.02em;
+  transform: skew(-6deg);
+  -webkit-transform: skew(-6deg);
+}
+.pic {
+  height: 20vh;
+  width: 20vh;
+  margin: 0 auto;
+  border-radius: 10vh;
+  background-size: cover;
+  border: 4px solid #f2f0ef;
+  box-shadow: 0px 0px 0px 4px #dd1111;
+}
+.loren { background-image: url('../images/loren_sheets.jpg'); }
+.brantly { background-image: url('../images/BrantlyMillegan.jpeg'); }
+
+
+/* Specs Page */
 .specs {
   display: none;
 }
+
+/* Contact Page */
 .contact {
   height: auto;
   width: 100%;
   text-align: center;
   margin: 10vh auto;
 }
-.contact p {
+.contact .header {
   font-family: 'Flottflott';
   font-size: 4em;
 }
-.contact p::after {
+.contact .header::after {
   content: "";
   display: block;
   height: 0.4vh;
@@ -99,27 +166,29 @@ html,body {
   background: #111;
   margin: 2vh auto 4vh auto;
 }
+.contact .info {
+  font-size: 2em;
+  text-align: left;
+  padding: 0 2vw;
+}
 
 .form-container {
   text-align: left;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 0 2vw;
 }
 .base-form {
-  width: 22vw;
-  min-width: 350px;
+  width: 100%;
   margin: 5vh 0;
 }
-/* .control-group {
-  transform: skew(-6deg);
-  -webkit-transform: skew(-6deg);
-} */
 .base-form label {
   color: #333;
   font-size: 2em;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
   transform: skew(-6deg);
   -webkit-transform: skew(-6deg);
 }
@@ -151,4 +220,14 @@ html,body {
 }
 .asteriskField {
     display: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5em;
+  color: #999;
+  border-top: 1px dotted #ccc;
+}
+footer p {
+  margin: 0 !important;
 }
