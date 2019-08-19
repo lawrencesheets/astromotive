@@ -51,8 +51,6 @@ No media query for `xs` since this is the default in Bootstrap */
   .pic::after {
     transition: 0.2s;
     -webkit-transition: 0.2s;
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);  
   }
   .member a:hover > .pic::after {
     transition: 0.2s;
