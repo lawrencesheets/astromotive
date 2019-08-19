@@ -1,7 +1,7 @@
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
-@media (max-width: 768px) and (orientation:landscape) {
+@media screen and (orientation:landscape) {
     .col-sm-6 {   width: 50%; }
     .half-page {    height: 75vh; }
     .col-ls-3 {   width: 25%; }
@@ -13,7 +13,7 @@ No media query for `xs` since this is the default in Bootstrap */
     .member h3 {  font-size: 2em; }
 }
 
-@media (max-width: 768px) and (orientation:portrait) {
+@media screen and (orientation:portrait) {
     .col-sm-6 {   width: 100%; }
     .half-page {    height: 50vh; }
     .col-ls-3, .col-ls-6 {   width: 100%; }
