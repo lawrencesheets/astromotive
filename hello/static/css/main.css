@@ -134,9 +134,6 @@ body:before {
   text-decoration: none;
   color: inherit;
 }
-.member a:hover {
-  color: #777;
-}
 .member h3 {
   text-transform: uppercase;
   font-size: 2.6em;
@@ -153,6 +150,7 @@ body:before {
   -webkit-transform: skew(-6deg);
 }
 .pic {
+  position: relative;
   height: 14vh;
   width: 14vh;
   margin: 0 auto;
@@ -160,11 +158,48 @@ body:before {
   background-size: cover;
   border: 2px solid #f2f0ef;
   box-shadow: 0px 0px 0px 2px #dd1111;
+  overflow: hidden;
 }
-.loren { background-image: url('../images/loren_sheets.jpg'); }
-.brantly { background-image: url('../images/BrantlyMillegan.jpeg'); }
-.kyle { background-image: url('../images/kylegilham.jpg'); }
-.nick { background-image: url('../images/nickgardetto.jpg'); }
+.loren::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url('../images/loren_sheets.jpg');
+}
+.brantly::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url('../images/BrantlyMillegan.jpeg');
+}
+.kyle::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url('../images/kylegilham.jpg');
+}
+.nick::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../images/nickgardetto.jpg');
+}
 
 
 /* Specs Page */
