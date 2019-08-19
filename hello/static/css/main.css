@@ -18,6 +18,7 @@ html,body {
   color: #111;
   font-family: 'Lichtspiele-Display';
   font-size: 1em;
+  overflow-x: hidden;
 }
 body:before {
   content: "";
