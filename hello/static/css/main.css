@@ -34,6 +34,8 @@ body:before {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  filter: brightness(60%) sepia(100%);
+  -webkit-filter: brightness(60%) sepia(100%);
 }
 .row { margin: 0; }
 .full-page {
