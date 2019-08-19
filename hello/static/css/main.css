@@ -1,0 +1,154 @@
+
+@font-face {
+  font-family: 'Flottflott';
+  src: URL('../Flottflott.ttf') format('truetype');
+}
+@font-face {font-family: "Lichtspiele-Display";
+    src: url("//db.onlinewebfonts.com/t/4ed55d54ba147b336d730a123cb0dea6.eot");
+    src: url("//db.onlinewebfonts.com/t/4ed55d54ba147b336d730a123cb0dea6.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/4ed55d54ba147b336d730a123cb0dea6.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/4ed55d54ba147b336d730a123cb0dea6.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/4ed55d54ba147b336d730a123cb0dea6.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/4ed55d54ba147b336d730a123cb0dea6.svg#Lichtspiele-Display") format("svg");
+}
+
+html,body {
+  height:100%;
+  width:100%;
+  color: #111;
+  font-family: 'Lichtspiele-Display';
+  font-size: 1em;
+}
+.full-page {
+  height: 90vh;
+  width: 100%;
+  text-align: center;
+}
+.title-page, .half-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.half-page {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  padding: 0;
+}
+.half-page::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('http://www.astrosurf.com/viladrich/astro/moon/closeup/Deslandres_C14-B1920-red-6Aug2015-3h52mnUT-300f.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(60%);
+  -webkit-filter: brightness(60%);
+  z-index: -1;
+}
+.half-page p {
+  color: #fff;
+  font-size: 3em;
+  width: 100%;
+  padding: 0 30vw;
+  line-height: 1em;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  transform: skew(-6deg);
+  -webkit-transform: skew(-6deg);
+}
+.logo {
+  font-size: 12em;
+  font-family: 'Flottflott';
+  margin: 0 !important;
+  line-height: 0.9em !important;
+}
+.icon {
+  width: 22%;
+}
+.subtitle {
+  font-size: 3.5em;
+  transform: skew(-6deg);
+  -webkit-transform: skew(-6deg);
+  margin-top: 30px;
+}
+.logo, .subtitle {
+  color: #dd1111;
+}
+
+.specs {
+  display: none;
+}
+.contact {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  margin: 10vh auto;
+}
+.contact p {
+  font-family: 'Flottflott';
+  font-size: 4em;
+}
+.contact p::after {
+  content: "";
+  display: block;
+  height: 0.4vh;
+  width: 5vw;
+  background: #111;
+  margin: 2vh auto 4vh auto;
+}
+
+.form-container {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.base-form {
+  width: 22vw;
+  min-width: 350px;
+  margin: 5vh 0;
+}
+/* .control-group {
+  transform: skew(-6deg);
+  -webkit-transform: skew(-6deg);
+} */
+.base-form label {
+  color: #333;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transform: skew(-6deg);
+  -webkit-transform: skew(-6deg);
+}
+.base-form input, .base-form textarea {
+  width: 100%;
+  margin: 0 0 1vh 0;
+  background: rgba(75,75,75,0.35);
+  border: none;
+  font-size: 1.5em;
+  padding-left: 8px;
+}
+.base-form textarea {
+  max-height: 15vh;
+}
+.btn-success {
+  font-size: 2em;
+  font-family: 'Flottflott';
+  background-color: #990000 !important;
+  border: none;
+  border-radius: 2px;
+  width: 30% !important;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+}
+.btn-success:hover {
+  background-color: #FF0000 !important;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+}
+.asteriskField {
+    display: none;
+}
