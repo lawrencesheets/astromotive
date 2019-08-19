@@ -37,26 +37,20 @@ No media query for `xs` since this is the default in Bootstrap */
     border-radius: 18vh;
     border: 3px solid #f2f0ef;
     box-shadow: 0px 0px 0px 3px #dd1111;
-    filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-    transition: 0.1s;
-    -webkit-transition: 0.1s;
-  }
-  .member a:hover > .pic {
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
-    transition: 0.1s;
-    -webkit-transition: 0.1s;
   }
   .pic::after {
     transition: 0.2s;
     -webkit-transition: 0.2s;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
   }
   .member a:hover > .pic::after {
     transition: 0.2s;
     -webkit-transition: 0.2s;
     transform: scale(1.02);
     -webkit-transform: scale(1.02);
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
   }
   .contact .header {
     font-size: 3.66em;

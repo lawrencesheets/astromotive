@@ -137,6 +137,7 @@ body:before {
 .member h3 {
   text-transform: uppercase;
   font-size: 2.6em;
+  color: #dd1111;
   letter-spacing: 0.05em;
   transform: skew(-6deg);
   -webkit-transform: skew(-6deg);
