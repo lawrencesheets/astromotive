@@ -7,8 +7,8 @@ No media query for `xs` since this is the default in Bootstrap */
     .col-ls-3 {   width: 25%; }
     .col-ls-6 {   width: 50%; }
     .pic {
-      height: 23vh;
-      width: 23vh;
+      height: 40vh;
+      width: 40vh;
     }
     .member h3 {  font-size: 2em; }
 }
