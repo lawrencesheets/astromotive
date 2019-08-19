@@ -2,15 +2,16 @@
 No media query for `xs` since this is the default in Bootstrap */
 
 @media (max-width: 768px) and (orientation:landscape) {
-    .col-sm-6 {
-      width: 50%;
-    }
+    .col-sm-6 {   width: 50%; }
+    .half-page {    height: 75vh; }
+    .col-ls-4 {   width: 33.33%; }
+
 }
 
 @media (max-width: 768px) and (orientation:portrait) {
-    .col-sm-6 {
-      width: 100%;
-    }
+    .col-sm-6 {   width: 100%; }
+    .half-page {    height: 50vh; }
+    .col-ls-4 {   width: 100%; }
 }
 
 /* Small devices (landscape phones, 576px and up) */
