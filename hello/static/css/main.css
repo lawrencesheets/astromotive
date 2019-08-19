@@ -124,7 +124,7 @@ body:before {
   margin: 0;
   padding: 12vh 10vw;
   position: relative;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #ccc;
 }
 
 .member {
