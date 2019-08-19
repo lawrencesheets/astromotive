@@ -68,6 +68,8 @@ html,body {
   position: relative;
   height: 50vh;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .half-page::after {
   content: '';
@@ -133,7 +135,7 @@ html,body {
   height: 14vh;
   width: 14vh;
   margin: 0 auto;
-  border-radius: 10vh;
+  border-radius: 14vh;
   background-size: cover;
   border: 2px solid #f2f0ef;
   box-shadow: 0px 0px 0px 2px #dd1111;
