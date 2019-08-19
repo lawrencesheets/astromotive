@@ -106,6 +106,7 @@ html,body {
 
 .member {
   text-align: center;
+  margin: 3vh 0;
 }
 .member a {
   text-decoration: none;
@@ -140,6 +141,8 @@ html,body {
 }
 .loren { background-image: url('../images/loren_sheets.jpg'); }
 .brantly { background-image: url('../images/BrantlyMillegan.jpeg'); }
+.kyle { background-image: url('../images/kylegilham.jpg'); }
+.nick { background-image: url('../images/nickgardetto.jpg'); }
 
 
 /* Specs Page */
