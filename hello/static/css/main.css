@@ -174,7 +174,7 @@ body:before {
   height: auto;
   width: 100%;
   text-align: center;
-  margin: 10vh auto;
+  padding: 10vh 0;
   background: #fff;
 }
 .contact .header {
@@ -250,6 +250,7 @@ body:before {
 }
 
 footer {
+  background: #fff;
   text-align: center;
   font-size: 1.0em;
   color: #999;
