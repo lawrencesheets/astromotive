@@ -20,6 +20,9 @@ No media query for `xs` since this is the default in Bootstrap */
   .contact .header {
     font-size: 3.33em;
   }
+  .baseline h4::before, .baseline h4::after {
+    width: 25%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -52,6 +55,9 @@ No media query for `xs` since this is the default in Bootstrap */
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
   }
+  .baseline h4::before, .baseline h4::after {
+    width: 30%;
+  }
   .contact .header {
     font-size: 3.66em;
   }
@@ -68,6 +74,9 @@ No media query for `xs` since this is the default in Bootstrap */
   .half-page p {
     font-size: 3.25em;
     padding: 0 25vw;
+  }
+  .baseline h4::before, .baseline h4::after {
+    width: 35%;
   }
   .pic {
     height: 20vh;

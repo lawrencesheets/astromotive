@@ -220,23 +220,19 @@ body:before {
   margin: 0;
   position: relative;
 }
-.baseline h4::before {
+.baseline h4::before, .baseline h4::after {
   content: "";
   position: absolute;
   top: 50%;
-  left: 5%;
   height: 2px;
-  width: 35%;
+  width: 20%;
   background: #ff7777;
 }
+.baseline h4::before {
+  left: 5%;
+}
 .baseline h4::after {
-  content: "";
-  position: absolute;
-  top: 50%;
   right: 5%;
-  height: 2px;
-  width: 35%;
-  background: #ff7777;
 }
 .baseline p {
   font-size: 1.75em;
