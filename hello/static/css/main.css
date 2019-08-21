@@ -90,20 +90,6 @@ body:before {
   margin: 0;
   padding: 0;
 }
-/* .half-page::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('http://www.astrosurf.com/viladrich/astro/moon/closeup/Deslandres_C14-B1920-red-6Aug2015-3h52mnUT-300f.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  filter: brightness(60%) sepia(100%);
-  -webkit-filter: brightness(60%) sepia(100%);
-  z-index: -1;
-} */
 .half-page p {
   color: #fff;
   font-size: 1.75em;
@@ -119,7 +105,7 @@ body:before {
 
 /* Team Page */
 .team {
-  background: #f2f0ef;
+  background: #fff;
   height: auto;
   margin: 0;
   padding: 12vh 10vw;
@@ -217,7 +203,48 @@ body:before {
 
 /* Specs Page */
 .specs {
-  display: none;
+  /* display: none; */
+  background: #eee9e7;
+  padding: 12vh 8vw;
+}
+.baseline {
+  margin: 0 auto 5vh auto;
+  color: #444;
+  text-align: center;
+  transform: skew(-6deg);
+  -webkit-transform: skew(-6deg);
+}
+.baseline h4 {
+  font-size: 4.5em;
+  letter-spacing: 0.03em;
+  margin: 0;
+  position: relative;
+}
+.baseline h4::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  height: 2px;
+  width: 35%;
+  background: #ff7777;
+}
+.baseline h4::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  height: 2px;
+  width: 35%;
+  background: #ff7777;
+}
+.baseline p {
+  font-size: 1.75em;
+  margin: 0;
+}
+.spec {
+  font-size: 2.15em;
+  text-align: center;
 }
 
 /* Contact Page */
@@ -229,8 +256,10 @@ body:before {
   background: #fff;
 }
 .contact .header {
-  font-family: 'Flottflott';
+  /* font-family: 'Flottflott'; */
   font-size: 3em;
+  transform: skew(-6deg);
+  -webkit-transform: skew(-6deg);
 }
 .contact .header::after {
   content: "";
