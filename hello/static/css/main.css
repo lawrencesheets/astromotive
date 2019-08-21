@@ -154,6 +154,7 @@ body:before {
   width: 100%;
   top: 0;
   left: 0;
+  border-radius: 20vh;
   background-size: cover;
   background-image: url('../images/loren_sheets.jpg');
   -webkit-backface-visibility: hidden;
@@ -167,6 +168,7 @@ body:before {
   width: 100%;
   top: 0;
   left: 0;
+  border-radius: 20vh;
   background-size: cover;
   background-image: url('../images/BrantlyMillegan.jpeg');
   -webkit-backface-visibility: hidden;
@@ -180,6 +182,7 @@ body:before {
   width: 100%;
   top: 0;
   left: 0;
+  border-radius: 20vh;
   background-size: cover;
   background-image: url('../images/kylegilham.jpg');
   -webkit-backface-visibility: hidden;
@@ -193,6 +196,7 @@ body:before {
   left: 0;
   height: 100%;
   width: 100%;
+  border-radius: 20vh;
   background-size: cover;
   background-image: url('../images/nickgardetto.jpg');
   -webkit-backface-visibility: hidden;
