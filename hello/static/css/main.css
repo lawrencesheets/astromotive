@@ -111,7 +111,11 @@ body:before {
   padding: 12vh 10vw;
   position: relative;
 }
-
+.centered {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .member {
   text-align: center;
   margin: 3vh 0;
